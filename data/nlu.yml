@@ -1,0 +1,404 @@
+version: "3.1"
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - good morning
+    - good evening
+    - hey there
+    - hello there
+    - hi there
+    - greetings
+    - howdy
+
+- intent: goodbye
+  examples: |
+    - bye
+    - goodbye
+    - see you
+    - see you later
+    - good bye
+    - bye bye
+    - take care
+    - cya
+    - see ya
+    - later
+
+- intent: thankyou
+  examples: |
+    - thanks
+    - thank you
+    - thank you so much
+    - thanks a lot
+    - appreciate it
+    - thank you very much
+    - thx
+    - tnx
+    - thanks a bunch
+
+- intent: ask_courses
+  examples: |
+    - what courses do you offer?
+    - available courses
+    - programs offered
+    - what degrees are available?
+    - list of courses
+    - what can I study here?
+    - available programs
+    - what are the courses?
+    - tell me about courses
+    - course offerings
+    - what programs do you have?
+    - available degrees
+    - what undergraduate courses?
+    - coures offered
+    - programs availble
+    - what can i study?
+
+- intent: ask_bba
+  examples: |
+    - tell me about BBA
+    - what is BBA?
+    - BBA course details
+    - Bachelor of Business Administration
+    - information about BBA
+    - BBA program
+    - BBA syllabus
+    - BBA subjects
+    - BBA semesters
+    - business administration course
+    - BBA details
+    - BBA informaton
+    - BBA program details
+    - what is bba course?
+
+- intent: ask_bca
+  examples: |
+    - tell me about BCA
+    - what is BCA?
+    - BCA course details
+    - Bachelor of Computer Application
+    - information about BCA
+    - BCA program
+    - BCA syllabus
+    - BCA subjects
+    - computer applications course
+    - BCA details
+    - BCA informaton
+    - BCA program details
+    - what is bca course?
+
+- intent: ask_bcom
+  examples: |
+    - tell me about B.Com
+    - what is B.Com?
+    - B.Com course details
+    - Bachelor of Commerce
+    - information about B.Com
+    - B.Com program
+    - B.Com syllabus
+    - B.Com subjects
+    - commerce course
+    - B.Com details
+    - B.Com informaton
+    - B.Com program details
+    - what is bcom course?
+
+- intent: ask_diplomas
+  examples: |
+    - what diplomas are available?
+    - advanced diploma programs
+    - diploma courses
+    - specializations
+    - aviation diploma
+    - logistics diploma
+    - AI diploma
+    - cybersecurity diploma
+    - big data diploma
+    - what are the diploma programs?
+    - available diplomas
+    - diploma courses offered
+    - advanced diploma in aviation
+    - supply chain diploma
+    - artificial intelligence diploma
+    - diplomas available
+
+- intent: ask_admission_eligibility
+  examples: |
+    - what is eligibility for admission?
+    - admission requirements
+    - who can apply?
+    - eligibility criteria
+    - qualification needed
+    - minimum qualification
+    - who is eligible?
+    - admission eligibility
+    - what qualifications required?
+    - eligibility for courses
+    - admission criteria
+    - who can get admission?
+    - eligiblity
+    - admission requirments
+    - what qualificatons needed?
+
+- intent: ask_admission_documents
+  examples: |
+    - what documents are required?
+    - required documents for admission
+    - documents needed
+    - what papers to submit?
+    - admission documents
+    - documents for application
+    - what certificates needed?
+    - required certificates
+    - documents list
+    - what to submit for admission?
+    - required docs
+    - documents requird
+    - what papers needed?
+    - admission papers
+
+- intent: ask_admission_procedure
+  examples: |
+    - how to apply for admission?
+    - admission process
+    - application procedure
+    - how to get admission?
+    - admission steps
+    - application process
+    - how to apply?
+    - admission method
+    - admission procedure
+    - how to take admission?
+    - application steps
+    - admission process details
+    - how to get addmission?
+
+- intent: ask_fees
+  examples: |
+    - what are the fees?
+    - course fees
+    - fee structure
+    - how much are the fees?
+    - tuition fees
+    - what is the fee?
+    - fees for courses
+    - cost of courses
+    - course cost
+    - fee details
+    - how much fee?
+    - fees structure
+    - what fees?
+    - course charges
+
+- intent: ask_hostel_fees
+  examples: |
+    - hostel fees
+    - accommodation charges
+    - hostel cost
+    - how much for hostel?
+    - hostel fee structure
+    - residential fees
+    - hostel charges
+    - accommodation fees
+    - hostel fee details
+    - hostal fees
+    - hostel fee
+    - how much hostel fee?
+    - hostel cost details
+
+- intent: ask_exam_system
+  examples: |
+    - how are exams conducted?
+    - examination system
+    - semester system
+    - exam pattern
+    - how exams work?
+    - examination process
+    - semester exams
+    - exam schedule
+    - when are exams?
+    - examination details
+    - exam system
+    - how exams are conducted?
+    - semester pattern
+
+- intent: ask_attendance
+  examples: |
+    - attendance requirements
+    - minimum attendance
+    - attendance rules
+    - how much attendance needed?
+    - attendance criteria
+    - attendance policy
+    - required attendance
+    - attendance percentage
+    - minimum attendance required
+    - attendance rules for exams
+    - attendence requirements
+    - how much attendence?
+
+- intent: ask_grading
+  examples: |
+    - grading system
+    - how is grading done?
+    - marks system
+    - evaluation system
+    - how are marks given?
+    - grading pattern
+    - marks distribution
+    - evaluation method
+    - how grading works?
+    - grading criteria
+    - marks system details
+    - grading systm
+
+- intent: ask_faculty
+  examples: |
+    - who are the faculty?
+    - teaching staff
+    - professors
+    - department heads
+    - faculty members
+    - teaching faculty
+    - who teaches?
+    - faculty details
+    - teaching staff details
+    - professors information
+    - faculty members list
+    - teaching faculty details
+
+- intent: ask_departments
+  examples: |
+    - what departments are there?
+    - departments available
+    - list of departments
+    - academic departments
+    - department heads
+    - HODs
+    - heads of departments
+    - departments in college
+    - available departments
+    - department list
+    - academic departments list
+
+- intent: ask_facilities
+  examples: |
+    - what facilities are available?
+    - college facilities
+    - available facilities
+    - infrastructure
+    - campus facilities
+    - what amenities are there?
+    - college infrastructure
+    - facilities provided
+    - available amenities
+    - campus amenities
+    - what facilites?
+    - college infrastructre
+
+- intent: ask_library
+  examples: |
+    - tell me about library
+    - library facilities
+    - library details
+    - what's in library?
+    - library resources
+    - books availability
+    - library information
+    - college library
+    - library services
+    - what books in library?
+    - library details
+
+- intent: ask_hostel
+  examples: |
+    - hostel facilities
+    - accommodation
+    - residential facilities
+    - hostel details
+    - staying facilities
+    - hostel information
+    - accommodation details
+    - hostal facilities
+    - residential details
+    - staying options
+    - hostel accomodation
+
+- intent: ask_sports
+  examples: |
+    - sports facilities
+    - games available
+    - sports infrastructure
+    - what sports are there?
+    - sports amenities
+    - games facilities
+    - sports in college
+    - available sports
+    - sports options
+    - games available in college
+    - sports facilites
+
+- intent: ask_transport
+  examples: |
+    - transport facilities
+    - bus service
+    - college transport
+    - transportation
+    - bus facilities
+    - college buses
+    - transport service
+    - bus transport
+    - transportation facilities
+    - college transportation
+    - bus service details
+    - transport facilites
+
+- intent: ask_events
+  examples: |
+    - what events are organized?
+    - college events
+    - annual events
+    - festivals
+    - cultural events
+    - college festivals
+    - events conducted
+    - annual functions
+    - what events happen?
+    - college activities
+    - events organized
+    - college functons
+
+- intent: ask_contacts
+  examples: |
+    - contact information
+    - how to contact?
+    - college contacts
+    - phone numbers
+    - email address
+    - contact details
+    - college address
+    - where is college?
+    - phone number
+    - email id
+    - contact info
+    - how to reach?
+    - college location
+    - contact detalils
+
+- intent: ask_placement
+  examples: |
+    - placement opportunities
+    - job placements
+    - companies visiting
+    - placement record
+    - career opportunities
+    - placement cell
+    - job opportunities
+    - which companies hire?
+    - placement statistics
+    - placement details
+    - job placement
+    - placement record details

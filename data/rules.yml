@@ -1,0 +1,42 @@
+version: "3.1"
+
+rules:
+- rule: Say goodbye anytime the user says goodbye
+  steps:
+  - intent: goodbye
+  - action: utter_goodbye
+
+- rule: Say hello anytime the user greets
+  steps:
+  - intent: greet
+  - action: utter_greet
+
+- rule: Respond to thanks
+  steps:
+  - intent: thankyou
+  - action: utter_thankyou
+
+- rule: Direct course inquiry
+  steps:
+  - intent: ask_courses
+  - action: utter_courses
+
+- rule: BBA specific inquiry
+  steps:
+  - intent: ask_bba
+  - action: utter_bba
+
+- rule: BCA specific inquiry
+  steps:
+  - intent: ask_bca
+  - action: utter_bca
+
+- rule: B.Com specific inquiry
+  steps:
+  - intent: ask_bcom
+  - action: utter_bcom
+
+- rule: Diploma programs inquiry
+  steps:
+  - intent: ask_diplomas
+  - action: utter_diplomas

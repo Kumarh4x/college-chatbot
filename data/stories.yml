@@ -1,0 +1,133 @@
+version: "3.1"
+
+stories:
+- story: greeting and farewell
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: course inquiry
+  steps:
+  - intent: ask_courses
+  - action: utter_courses
+  - intent: ask_bba
+  - action: utter_bba
+  - intent: thankyou
+  - action: utter_thankyou
+
+- story: bca course details
+  steps:
+  - intent: ask_bca
+  - action: utter_bca
+  - intent: ask_diplomas
+  - action: utter_diplomas
+
+- story: commerce program inquiry
+  steps:
+  - intent: ask_bcom
+  - action: utter_bcom
+  - intent: ask_admission_eligibility
+  - action: utter_admission_eligibility
+
+- story: admission process
+  steps:
+  - intent: ask_admission_procedure
+  - action: utter_admission_procedure
+  - intent: ask_admission_documents
+  - action: utter_admission_documents
+  - intent: ask_admission_eligibility
+  - action: utter_admission_eligibility
+
+- story: fees and hostel inquiry
+  steps:
+  - intent: ask_fees
+  - action: utter_fees
+  - intent: ask_hostel_fees
+  - action: utter_hostel_fees
+
+- story: academic system
+  steps:
+  - intent: ask_exam_system
+  - action: utter_exam_system
+  - intent: ask_attendance
+  - action: utter_attendance
+  - intent: ask_grading
+  - action: utter_grading
+
+- story: faculty and departments
+  steps:
+  - intent: ask_faculty
+  - action: utter_faculty
+  - intent: ask_departments
+  - action: utter_departments
+
+- story: campus facilities
+  steps:
+  - intent: ask_facilities
+  - action: utter_facilities
+  - intent: ask_library
+  - action: utter_library
+  - intent: ask_hostel
+  - action: utter_hostel
+  - intent: ask_sports
+  - action: utter_sports
+  - intent: ask_transport
+  - action: utter_transport
+
+- story: events and activities
+  steps:
+  - intent: ask_events
+  - action: utter_events
+
+- story: contact information
+  steps:
+  - intent: ask_contacts
+  - action: utter_contacts
+
+- story: placement opportunities
+  steps:
+  - intent: ask_placement
+  - action: utter_placement
+
+- story: comprehensive college inquiry
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: ask_courses
+  - action: utter_courses
+  - intent: ask_bba
+  - action: utter_bba
+  - intent: ask_admission_eligibility
+  - action: utter_admission_eligibility
+  - intent: ask_fees
+  - action: utter_fees
+  - intent: ask_facilities
+  - action: utter_facilities
+  - intent: thankyou
+  - action: utter_thankyou
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: student life inquiry
+  steps:
+  - intent: ask_hostel
+  - action: utter_hostel
+  - intent: ask_sports
+  - action: utter_sports
+  - intent: ask_events
+  - action: utter_events
+  - intent: ask_transport
+  - action: utter_transport
+
+- story: academic policies
+  steps:
+  - intent: ask_exam_system
+  - action: utter_exam_system
+  - intent: ask_attendance
+  - action: utter_attendance
+  - intent: ask_grading
+  - action: utter_grading
+  - intent: ask_placement
+  - action: utter_placement

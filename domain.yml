@@ -1,0 +1,126 @@
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - thankyou
+  - ask_courses
+  - ask_bba
+  - ask_bca
+  - ask_bcom
+  - ask_diplomas
+  - ask_admission_eligibility
+  - ask_admission_documents
+  - ask_admission_procedure
+  - ask_fees
+  - ask_hostel_fees
+  - ask_exam_system
+  - ask_attendance
+  - ask_grading
+  - ask_faculty
+  - ask_departments
+  - ask_facilities
+  - ask_library
+  - ask_hostel
+  - ask_sports
+  - ask_transport
+  - ask_events
+  - ask_contacts
+  - ask_placement
+
+responses:
+  utter_greet:
+  - text: "Hello! Welcome to Shree Devi College. How can I assist you today?"
+  - text: "Hi there! Welcome to Shree Devi College. What would you like to know?"
+  - text: "Greetings! I'm here to help you with information about Shree Devi College. What can I help you with?"
+
+  utter_goodbye:
+  - text: "Goodbye! Have a great day!"
+  - text: "Thank you for visiting! Feel free to ask if you have more questions."
+  - text: "See you! Best of luck with your academic journey!"
+
+  utter_thankyou:
+  - text: "You're welcome! Is there anything else you'd like to know?"
+  - text: "Happy to help! Let me know if you need more information."
+  - text: "Glad I could assist! What else can I help you with?"
+
+  utter_courses:
+  - text: "Shree Devi College offers a wide range of undergraduate programs:\n\n• Bachelor of Business Administration (BBA)\n• Bachelor of Computer Applications (BCA)  \n• Bachelor of Commerce (B.Com)\n\nWe also offer Advanced Diplomas in:\n• Aviation & Hospitality Management\n• Supply Chain & Logistics Management\n• Artificial Intelligence, Big Data Analytics & Cyber Security\n\nWhich program would you like to know more about?"
+
+  utter_bba:
+  - text: "The Bachelor of Business Administration (BBA) is a 3-year program focused on developing future business leaders. Key features:\n\n• Duration: 6 semesters (3 years)\n• Focus: Management techniques in finance, marketing, communications\n• Specializations available with advanced diplomas\n• Career: Management roles in various business organizations\n\nSubjects include Principles of Management, Marketing, Finance, HR, and more across 6 semesters."
+
+  utter_bca:
+  - text: "The Bachelor of Computer Applications (BCA) is a 3-year program keeping pace with modern technology:\n\n• Duration: 6 semesters (3 years)\n• Focus: Software technology, programming, computer applications\n• Subjects: Programming languages, Database Management, Web Development, AI, Cloud Computing\n• Career: Software development, IT services, computer professionals\n\nModern curriculum covering latest technologies like AI, Big Data, and Cloud Computing."
+
+  utter_bcom:
+  - text: "The Bachelor of Commerce (B.Com) is a 3-year program for commerce professionals:\n\n• Duration: 6 semesters (3 years)\n• Focus: Commerce, finance, accounting, business principles\n• Subjects: Accounting, Taxation, Business Law, Finance, Marketing\n• Career: Commerce professionals, accountants, financial experts\n\nComprehensive curriculum covering both academic and practical business subjects."
+
+  utter_diplomas:
+  - text: "We offer Advanced Diplomas that can be pursued along with BBA/BCA/B.Com:\n\n1. Aviation & Hospitality Management\n   - Covers aviation principles, airport operations, hospitality management\n   \n2. Supply Chain & Logistics Management  \n   - Focuses on logistics, transportation, warehousing, global supply chains\n   \n3. Artificial Intelligence, Big Data Analytics & Cyber Security\n   - Includes AI, big data technologies, cybersecurity, data analytics\n\nThese are 3-year programs running parallel to degree courses."
+
+  utter_admission_eligibility:
+  - text: "Eligibility for admission:\n\n• For BBA/BCA/B.Com: Pass in Pre-University Examination (10+2) from Karnataka Board or equivalent\n• Should have passed in Science, Commerce or Arts discipline\n• Equivalent qualifications recognized by Mangalore University\n• For some programs: Polytechnic Diploma or JOC Program\n\nAll admissions subject to Mangalore University eligibility criteria."
+
+  utter_admission_documents:
+  - text: "Documents required for admission:\n\n• Photocopy of 10+2 marks statement\n• Photocopy of SSLC Certificate (for date of birth)\n• Photocopy of Transfer Certificate/School Leaving Certificate  \n• Photocopy of Migration Certificate\n• 3-5 passport size photographs\n• Demand Draft of ₹500 payable to respective college\n\nAll documents should be submitted with the application form."
+
+  utter_admission_procedure:
+  - text: "Admission procedure:\n\n1. Submit filled application form with ₹500 DD\n2. Include all required documents\n3. Eligible candidates selected based on application scrutiny\n4. Pay prescribed fees upon selection\n5. Obtain eligibility certificate from Mangalore University\n6. Complete admission formalities\n\nApplications are processed on scrutiny basis without entrance exam."
+
+  utter_fees:
+  - text: "For detailed fee structure, I recommend contacting the college administration directly as fees may vary by program and year. However, the application fee is ₹500 payable by demand draft to the respective college.\n\nYou can contact:\nPhone: 0824-2457937, 2456501, 2456511\nEmail: info@sdc.ac.in\n\nThey will provide the complete fee structure for your chosen program."
+
+  utter_hostel_fees:
+  - text: "The college provides separate hostel facilities for boys and girls with comfortable rooms and amenities. For specific hostel fees and accommodation details, please contact the hostel administration directly.\n\nHostel facilities include:\n• Comfortable rooms with furniture\n• Hygienic dining facilities\n• Separate buildings for boys and girls\n\nContact college office for current hostel charges."
+
+  utter_exam_system:
+  - text: "Examination system:\n\n• Semester pattern: 6 semesters over 3 years\n• Exams conducted twice yearly:\n  - 1st, 3rd, 5th semesters: Oct/Nov\n  - 2nd, 4th, 6th semesters: Apr/May\n• Both theory and practical examinations\n• Internal assessment based on tests and assignments\n• Minimum 75% attendance required for exam eligibility"
+
+  utter_attendance:
+  - text: "Attendance requirements:\n\n• Minimum 75% attendance required in each subject\n• Applies to both theory and practical classes separately\n• No minimum for co-curricular activities\n• Students with less than 75% attendance not permitted for university exams\n• Must seek re-admission if attendance criteria not met\n\nRegular attendance is strictly enforced."
+
+  utter_grading:
+  - text: "Grading system:\n\n• First Class with Distinction: 70% and above\n• First Class: 60% to 69%\n• High Second Class: 55% to 59%\n• Second Class: 50% to 54%\n• Pass Class: 35% to 49%\n\nPass criteria:\n• 35% in written exam + 35% aggregate (written + internal)\n• 35% in practical exams\n• 35% in project work & viva"
+
+  utter_faculty:
+  - text: "Our faculty includes experienced professionals:\n\nBoard of Governors:\n• Sri A. Sadananda Shetty - Chairman\n• Sri Nidhish S. Shetty - Vice-Chairman\n• Smt. Maina S. Shetty - Secretary\n\nDepartment Heads:\n• Sri Sudheesha Poojary - Head, BBA\n• Sri H. Thrilokanath - Head, BCA\n• Smt. Revathi K - Head, B.Com\n\nAll faculty members are qualified and experienced in their respective fields."
+
+  utter_departments:
+  - text: "Academic departments at Shree Devi College:\n\n• Department of Business Administration (BBA)\n• Department of Computer Applications (BCA)  \n• Department of Commerce (B.Com)\n• Department of Hotel Management\n• Department of Interior Design\n• Department of Fashion Design\n• Department of Pharmacy\n• Department of Nursing\n• Department of Physiotherapy\n\nEach department has specialized faculty and infrastructure."
+
+  utter_facilities:
+  - text: "College facilities include:\n\n• Fully equipped classrooms with audio-visual equipment\n• Computer laboratories with internet access\n• Well-stocked library with books and journals\n• Separate hostels for boys and girls\n• Sports facilities (cricket, basketball, badminton)\n• College transport buses\n• Training restaurants and labs (for hotel management)\n• Drawing and drafting rooms (for design courses)\n• Modern laboratories for science courses"
+
+  utter_library:
+  - text: "Library facilities:\n\n• Extensive collection of books on management, computer science and allied subjects\n• Periodicals and journals available in reading room\n• Reference books for all courses\n• Digital library access through Helinet Consortium\n• E-journals and e-books\n• Systematic use of visual aids\n• Open for student reference and research"
+
+  utter_hostel:
+  - text: "Hostel facilities:\n\n• Separate hostels for boys and girls on campus\n• Comfortable rooms with adequate furniture\n• All necessary amenities provided\n• Hygienic dining facilities catering to nutritional needs\n• Located within accessible distance from college\n• Safe and secure environment for outstation students\n\nContact college for availability and booking."
+
+  utter_sports:
+  - text: "Sports facilities:\n\n• Outdoor sports: cricket, basketball, badminton\n• Indoor games available\n• Annual state-level inter-collegiate basketball tournament (Shree Devi College Cup)\n• Swimming and health club facilities at concessional rates\n• Adequate playing fields and equipment\n• Encouragement for all-round student development through sports"
+
+  utter_transport:
+  - text: "Transport facilities:\n\n• College-owned fleet of buses\n• Comfortable transportation for students\n• Covers various routes in the city\n• Ensures easy commute for course activities\n• Safe and reliable transport service\n• Regular schedule for college hours\n\nContact transport in-charge for route details and fees."
+
+  utter_events:
+  - text: "College events and activities:\n\n• Annual Day celebrations\n• Ethnic Day\n• Freshers Day\n• Inter-collegiate festivals and competitions\n• Zaika - annual multi-cuisine food festival\n• Shree Devi College Cup basketball tournament\n• Cultural events and stage shows\n• NSS/NCC/Rovers and Rangers activities\n• Technical festivals and seminars\n• Sports competitions"
+
+  utter_contacts:
+  - text: "Contact information:\n\nShree Devi Education Trust\nBallalbagh, Mangalore - 575 003\nKarnataka, India\n\nPhone: 0824-2457937, 2456501, 2456511\nFax: 0824-2451108\nEmail: info@sdc.ac.in\nWebsite: www.sdc.ac.in\n\nYou can contact the respective college principal for specific queries."
+
+  utter_placement:
+  - text: "Placement opportunities:\n\n• Strong placement record across all colleges\n• Tie-ups with top companies and organizations\n• Hotel Management: Jumeirah Beach Resort, Oberoi, Taj, Emirates, etc.\n• IT companies: Oracle, Infosys, Wipro\n• Regular campus recruitment drives\n• 100% placement record in some departments\n• Career guidance and training provided\n\nExcellent industry connections for student placements."
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
+
+
+
+
+
+
+
+
